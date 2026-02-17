@@ -1,0 +1,349 @@
+{
+  "color": {
+    "action": {
+      "primary": {
+        "value": "{color.blue.500.value}",
+        "comment": "プライマリカラー"
+      },
+      "primary-hover": {
+        "value": "{color.blue.700.value}",
+        "comment": "ホバー時のプライマリカラー"
+      },
+      "primary-pressed": {
+        "value": "{color.blue.900.value}",
+        "comment": "押下時のプライマリカラー"
+      },
+      "secondary": {
+        "value": "{color.black-white.white.value}",
+        "comment": "セカンダリーカラー"
+      },
+      "secondary-hover": {
+        "value": "{color.gray.100.value}",
+        "comment": "ホバー時のセカンダリーカラー"
+      },
+      "secondary-pressed": {
+        "value": "{color.gray.200.value}",
+        "comment": "押下時のセカンダリーカラー"
+      },
+      "danger": {
+        "value": "{color.red.500.value}",
+        "comment": "破壊的アクションカラー"
+      },
+      "danger-hover": {
+        "value": "{color.red.700.value}",
+        "comment": "破壊的アクションのホバー時のカラー"
+      },
+      "danger-pressed": {
+        "value": "{color.red.900.value}",
+        "comment": "破壊的アクションの押下時のカラー"
+      }
+    },
+    "text": {
+      "text-main": {
+        "value": "{color.gray.700.value}",
+        "comment": "メインテキストカラー"
+      },
+      "text-sub": {
+        "value": "{color.gray.500.value}",
+        "comment": "サブテキストカラー"
+      },
+      "text-white": {
+        "value": "{color.black-white.white.value}",
+        "comment": "カラーの上で使用するテキスト色"
+      },
+      "text-link": {
+        "value": "{color.blue.700.value}",
+        "comment": "テキストリンク"
+      },
+      "text-danger": {
+        "value": "{color.red.500.value}",
+        "comment": "アラートテキストカラー"
+      },
+      "text-emphasis": {
+        "value": "{color.blue.900.value}",
+        "comment": "ブルー系の背景色の上での強調テキストカラー"
+      },
+      "text-brand": {
+        "value": "{color.blue.500.value}",
+        "comment": "強調テキストカラー"
+      }
+    },
+    "background-surface": {
+      "background": {
+        "value": "{color.gray.50.value}",
+        "comment": "プロダクトの背景色"
+      },
+      "surface": {
+        "value": "{color.black-white.white.value}",
+        "comment": "汎用的に使用する背景色"
+      },
+      "surface-hover": {
+        "value": "{color.gray.100.value}",
+        "comment": "ホバー時の背景色"
+      },
+      "surface-pressed": {
+        "value": "{color.gray.200.value}",
+        "comment": "押下時の背景色"
+      },
+      "surface-selected": {
+        "value": "{color.blue.100.value}",
+        "comment": "選択中の背景色"
+      },
+      "surface-sub": {
+        "value": "{color.gray.50.value}",
+        "comment": "背景色に更に背景を重ねるときに使用する色"
+      }
+    },
+    "border": {
+      "border": {
+        "value": "{color.gray.200.value}",
+        "comment": "枠線の色"
+      },
+      "border-focus": {
+        "value": "{color.blue.500.value}",
+        "comment": "フォーカスで使用する枠線色"
+      }
+    },
+    "status": {
+      "success": {
+        "value": "{color.green.500.value}"
+      },
+      "error": {
+        "value": "{color.red.500.value}"
+      },
+      "warning": {
+        "value": "{color.orange.500.value}"
+      },
+      "info": {
+        "value": "{color.blue.500.value}"
+      },
+      "surface-success": {
+        "value": "{color.green.100.value}"
+      },
+      "surface-error": {
+        "value": "{color.red.100.value}"
+      },
+      "surface-warning": {
+        "value": "{color.orange.100.value}"
+      },
+      "surface-info": {
+        "value": "{color.blue.100.value}"
+      }
+    },
+    "component": {
+      "table-header": {
+        "value": "{color.gray.200.value}",
+        "comment": "TableHeaderの背景色"
+      },
+      "scrim": {
+        "value": "{color.blackalpha.700.value}",
+        "comment": "透過時に使用する色"
+      },
+      "tab-background": {
+        "value": "{color.gray.100.value}",
+        "comment": "enclosedのタブで使用する背景色"
+      },
+      "avatar": {
+        "value": "{color.gray.400.value}",
+        "comment": "Avatarの背景色"
+      },
+      "tooltip": {
+        "value": "{color.gray.900.value}",
+        "comment": "Tooltipの背景色"
+      },
+      "dark-illustration": {
+        "value": "{color.gray.600.value}",
+        "comment": "イラストの濃色"
+      },
+      "middle-illustration": {
+        "value": "{color.gray.500.value}",
+        "comment": "イラストの中間色"
+      },
+      "light-illustration": {
+        "value": "{color.gray.300.value}",
+        "comment": "イラストの淡色"
+      },
+      "checked-item-disabled": {
+        "value": "{color.gray.500.value}",
+        "comment": "チェックアイテムの非活性色（RadioやCheck）"
+      },
+      "switch-false": {
+        "value": "{color.gray.300.value}"
+      }
+    },
+    "signer-type": {
+      "other": {
+        "value": "{color.gray.500.value}"
+      },
+      "gurantor": {
+        "value": "{color.gray.500.value}"
+      },
+      "manager": {
+        "value": "{color.green.600.value}"
+      },
+      "real-estate": {
+        "value": "{color.yellow.600.value}"
+      },
+      "mediator": {
+        "value": "{color.purple.600.value}"
+      },
+      "user": {
+        "value": "{color.orange.600.value}"
+      },
+      "owner": {
+        "value": "{color.blue.600.value}"
+      }
+    },
+    "accent": {
+      "text": {
+        "accent-blue-text": {
+          "value": "{color.blue.600.value}"
+        },
+        "accent-gray-text": {
+          "value": "{color.gray.600.value}"
+        },
+        "accent-green-text": {
+          "value": "{color.green.700.value}"
+        },
+        "accent-red-text": {
+          "value": "{color.red.600.value}"
+        },
+        "accent-orange-text": {
+          "value": "{color.orange.700.value}"
+        },
+        "accent-pink-text": {
+          "value": "{color.pink.600.value}"
+        },
+        "accent-purple-text": {
+          "value": "{color.purple.600.value}"
+        },
+        "accent-yellow-text": {
+          "value": "{color.yellow.700.value}"
+        }
+      },
+      "border": {
+        "accent-blue-border": {
+          "value": "{color.blue.300.value}"
+        },
+        "accent-gray-border": {
+          "value": "{color.gray.400.value}"
+        },
+        "accent-green-border": {
+          "value": "{color.green.300.value}"
+        },
+        "accent-red-border": {
+          "value": "{color.red.300.value}"
+        },
+        "accent-orange-border": {
+          "value": "{color.orange.300.value}"
+        },
+        "accent-pink-border": {
+          "value": "{color.pink.300.value}"
+        },
+        "accent-purple-border": {
+          "value": "{color.purple.300.value}"
+        },
+        "accent-yellow-border": {
+          "value": "{color.yellow.400.value}"
+        }
+      },
+      "surface": {
+        "accent-blue-surface": {
+          "value": "{color.blue.50.value}"
+        },
+        "accent-gray-surface": {
+          "value": "{color.gray.50.value}"
+        },
+        "accent-green-surface": {
+          "value": "{color.green.50.value}"
+        },
+        "accent-red-surface": {
+          "value": "{color.red.50.value}"
+        },
+        "accent-orange-surface": {
+          "value": "{color.orange.50.value}"
+        },
+        "accent-pink-surface": {
+          "value": "{color.pink.50.value}"
+        },
+        "accent-purple-surface": {
+          "value": "{color.purple.50.value}"
+        },
+        "accent-yellow-surface": {
+          "value": "{color.yellow.50.value}"
+        }
+      }
+    }
+  },
+  "semantic-border": {
+    "radius": {
+      "none": {
+        "value": "{border.radius.0.value}"
+      },
+      "sm": {
+        "value": "{border.radius.2.value}"
+      },
+      "base": {
+        "value": "{border.radius.4.value}"
+      },
+      "md": {
+        "value": "{border.radius.6.value}"
+      },
+      "lg": {
+        "value": "{border.radius.8.value}"
+      },
+      "xl": {
+        "value": "{border.radius.12.value}"
+      },
+      "full": {
+        "value": "{border.radius.9999.value}"
+      }
+    },
+    "width": {
+      "none": {
+        "value": "{border.width.0.value}"
+      },
+      "hairline": {
+        "value": "{border.width.0-5.value}"
+      },
+      "thin": {
+        "value": "{border.width.1.value}"
+      },
+      "base": {
+        "value": "{border.width.2.value}"
+      },
+      "bold": {
+        "value": "{border.width.4.value}"
+      }
+    }
+  },
+  "semantic-spacing": {
+    "0": {
+      "value": "{spacing.0.value}"
+    },
+    "2": {
+      "value": "{spacing.2.value}"
+    },
+    "4": {
+      "value": "{spacing.4.value}"
+    },
+    "8": {
+      "value": "{spacing.8.value}"
+    },
+    "12": {
+      "value": "{spacing.12.value}"
+    },
+    "16": {
+      "value": "{spacing.16.value}"
+    },
+    "24": {
+      "value": "{spacing.24.value}"
+    },
+    "32": {
+      "value": "{spacing.32.value}"
+    },
+    "40": {
+      "value": "{spacing.40.value}"
+    }
+  }
+}

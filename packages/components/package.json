@@ -1,0 +1,13 @@
+{
+    "name": "@pickform/components",
+    "version": "0.1.0",
+    "description": "Pickform Design System — UI Components",
+    "main": "src/index.js",
+    "scripts": {
+        "build": "echo 'No build configured yet'"
+    },
+    "dependencies": {
+        "@pickform/tokens": "workspace:*"
+    },
+    "license": "UNLICENSED"
+}

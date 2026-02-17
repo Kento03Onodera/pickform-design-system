@@ -1,0 +1,19 @@
+{
+    "name": "@pickform/tokens",
+    "version": "0.1.0",
+    "description": "Pickform Design Tokens — 3-layer token architecture",
+    "type": "module",
+    "main": "dist/js/tokens.js",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "node config.js",
+        "clean": "rm -rf dist"
+    },
+    "keywords": [
+        "design-tokens",
+        "style-dictionary"
+    ],
+    "license": "UNLICENSED"
+}
