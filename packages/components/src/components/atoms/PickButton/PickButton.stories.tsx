@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { PickButton } from './pickButton';
+import { PickButton } from './PickButton';
 
 const meta = {
     title: 'Atoms/PickButton',

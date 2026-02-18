@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { TableTh } from './tableTh';
+import { TableTh } from './TableTh';
 import { useState } from 'react';
 
 const meta = {
