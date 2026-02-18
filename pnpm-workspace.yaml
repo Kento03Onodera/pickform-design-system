@@ -1,2 +1,5 @@
 packages:
-  - 'packages/*'
+  - packages/*
+
+patchedDependencies:
+  '@tmcp/session-manager': patches/@tmcp__session-manager.patch

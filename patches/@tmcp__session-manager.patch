@@ -1,0 +1,14 @@
+diff --git a/package.json b/package.json
+index a5ea8034e888f1030b8350464e5ff399d7e39be8..338c0ffe4d16055e0f99e697c3d103c0ef7a64e6 100644
+--- a/package.json
++++ b/package.json
+@@ -19,7 +19,8 @@
+   "exports": {
+     ".": {
+       "types": "./src/types/index.d.ts",
+-      "import": "./src/index.js"
++      "import": "./src/index.js",
++      "require": "./src/index.js"
+     }
+   },
+   "type": "module",
